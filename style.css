@@ -1,51 +1,54 @@
 * {
-    padding: 0%;
-    margin: 0%;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.home {
-    background-image: url(Takistan-Map.png);
-    background-size: 100%;
+  padding: 0%;
+  margin: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
 }
 nav {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: #F9EDAD;
-    padding: 2%;
-    margin: 10px;
+  position: absolute;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #f9edad;
+  padding: 2%;
+  margin: 1%;
+  z-index: 1;
+  width: 98%;
 }
 a {
-    background-color: #9DB05C;
-    text-decoration: none;
-    color: #242D22;
+  background-color: #9db05c;
+  text-decoration: none;
+  color: #242d22;
 }
 
 nav a:hover {
-    background-color: #597439;
+  background-color: #597439;
 }
 
 .dropdown {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 }
-  
+
 .drop-menu {
-    display: none;
-    position: absolute;
-    background-color: #9DB05C;
-    z-index: 1;
+  display: none;
+  position: absolute;
+  background-color: #9db05c;
+  z-index: 1;
 }
-  
+
 .drop-menu a {
-    display: block;
+  display: block;
 }
-  
+
 .drop-menu a:hover {
-    background-color: #597439;
+  background-color: #597439;
 }
-  
+
 .dropdown:hover .drop-menu {
-    display: block;
+  display: block;
 }
-  
+
+img {
+  width: 100%;
+}
