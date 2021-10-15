@@ -1,0 +1,39 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+img{
+    size: 100%;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.drop-menu {
+    display: none;
+    position: absolute;
+    background-color: #9DB05C;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+  
+.drop-menu a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.drop-menu a:hover {
+    background-color: #597439;
+}
+  
+.dropdown:hover .drop-menu {
+    display: block;
+}
+  
+.dropdown:hover .dropbutt {
+    background-color: #597439;
+}
