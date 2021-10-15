@@ -1,11 +1,29 @@
 * {
     padding: 0%;
     margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home {
+    background-image: url(Takistan-Map.png);
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #F9EDAD;
+    padding: 2%;
+    margin: 10px;
+}
+a {
+    background-color: #9DB05C;
+    text-decoration: none;
+    color: #242D22;
 }
 
-img{
-    size: 100%;
+nav a:hover {
+    background-color: #597439;
 }
+
 .dropdown {
     position: relative;
     display: inline-block;
@@ -15,14 +33,10 @@ img{
     display: none;
     position: absolute;
     background-color: #9DB05C;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
   
 .drop-menu a {
-    padding: 12px 16px;
-    text-decoration: none;
     display: block;
 }
   
@@ -34,6 +48,3 @@ img{
     display: block;
 }
   
-.dropdown:hover .dropbutt {
-    background-color: #597439;
-}
