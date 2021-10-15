@@ -5,6 +5,7 @@
 }
 .home {
     background-image: url(Takistan-Map.png);
+    background-size: 100%;
 }
 nav {
     display: flex;
