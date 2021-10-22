@@ -3,6 +3,7 @@
   margin: 0%;
   font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 nav {
@@ -18,15 +19,13 @@ nav {
   height: 16%;
 }
 
-a {
-  text-decoration: none;
-}
-
 .topBarText a {
   background-color: #9db05c;
   text-align: center;
   color: #242d22;
   padding: 30px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 nav a:hover {
@@ -44,14 +43,16 @@ nav a:hover {
 .drop-menu {
   display: none;
   position: absolute;
-  background-color: #9db05c;
+  background-color: #f9edad;
   z-index: 1;
   top: 3em;
 }
 
 .drop-menu a {
   display: block;
+  margin: 5px;
   color: #242d22;
+  background-color: #9db05c;
   padding: 30px;
 }
 
@@ -63,6 +64,6 @@ nav a:hover {
   display: block;
 }
 
-img {
+.TAKISTAN {
   width: 100%;
 }
