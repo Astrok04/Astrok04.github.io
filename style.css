@@ -14,7 +14,7 @@ nav {
   align-items: center;
   padding: 2%;
   margin: 1%;
-  z-index: 1;
+  z-index: 10;
   width: 98%;
   height: 16%;
 }
@@ -44,7 +44,7 @@ nav a:hover {
   display: none;
   position: absolute;
   background-color: #f9edad;
-  z-index: 1;
+  z-index: 10;
   top: 3em;
 }
 
@@ -65,7 +65,44 @@ nav a:hover {
 }
 
 .informationText {
-  
+  position: absolute;
+  padding: 50px;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 400px;
+  z-index: 1;
+  background-color: #f9edad;
+}
+
+.informationLi {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 15px;
+  background-color: #9db05c;
+  font-weight: bold;
+}
+
+.MainInfoBox {
+  background-color: #f9edad;
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 90%;
+  margin: 5%;
+  margin-top: 2%;
+}
+
+.MainInfoLi {
+  background-color: #9db05c;
+  margin: 5%;
+  padding: 2%;
+  height: 30%;
+}
+
+.MainInfoBody {
+  background-color: #816c55;
 }
 
 .TAKISTAN {
@@ -74,5 +111,11 @@ nav a:hover {
 
 .Soldiers {
   width: 100%;
+}
+
+.Tactical-map {
+  width: 90%;
+  margin-top: 10%;
+  margin-left: 5%;
 }
 
