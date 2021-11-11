@@ -69,15 +69,15 @@ nav a:hover {
   padding: 50px;
   width: 80%;
   margin-left: 10%;
-  margin-top: 400px;
+  margin-top: 45%;
   z-index: 1;
   background-color: #f9edad;
 }
 
 .informationLi {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  padding: 15px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 2%;
   background-color: #9db05c;
   font-weight: bold;
 }
@@ -91,17 +91,30 @@ nav a:hover {
   align-content: center;
   width: 90%;
   margin: 5%;
-  margin-top: 2%;
+  margin-top: 75%;
+}
+
+.ReportBox {
+  background-color: #f9edad;
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  width: 90%;
+  margin: 5%;
+  margin-top: 75%;
 }
 
 .MainInfoLi {
   background-color: #9db05c;
   margin: 5%;
-  padding: 2%;
-  height: 30%;
+  padding: 3%;
+  display: flex;
+  align-content: center;
 }
 
-.MainInfoBody {
+.STNBody {
   background-color: #816c55;
 }
 
@@ -114,8 +127,8 @@ nav a:hover {
 }
 
 .Tactical-map {
-  width: 90%;
+  width: 98%;
   margin-top: 10%;
-  margin-left: 5%;
+  margin-left: 1%;
 }
 
