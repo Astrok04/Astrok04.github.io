@@ -66,7 +66,7 @@ nav a:hover {
 
 .informationText {
   position: absolute;
-  padding: 50px;
+  padding: 3%;
   width: 80%;
   margin-left: 10%;
   margin-top: 45%;
@@ -85,13 +85,12 @@ nav a:hover {
 .MainInfoBox {
   background-color: #f9edad;
   position: absolute;
-  z-index: 1;
   display: flex;
   justify-content: center;
   align-content: center;
   width: 90%;
   margin: 5%;
-  margin-top: 75%;
+  margin-top: 15%;
 }
 
 .ReportBox {
@@ -112,6 +111,40 @@ nav a:hover {
   padding: 3%;
   display: flex;
   align-content: center;
+}
+
+.CreationBox {
+  background-color: #816c55;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 94%;
+  margin-top: 10%;
+  margin-left: 3%;
+  z-index: 1;
+}
+
+.CreationRow {
+  width: 46%;
+  margin: 2%
+}
+
+.CreationLi {
+  font-size: 150%;
+  margin-top: 2%;
+  padding: 2%;
+  background-color: #9db05c;
+  color: #242d22;
+}
+
+.CreationIMG {
+  margin-top: 13%;
+  width: 100%;
+}
+
+.CreationIMG2 {
+  margin-top: 2%;
+  width: 100%;
 }
 
 .STNBody {
