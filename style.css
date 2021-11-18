@@ -67,16 +67,16 @@ nav a:hover {
 .informationText {
   position: absolute;
   padding: 3%;
-  width: 80%;
-  margin-left: 10%;
-  margin-top: 45%;
+  width: 95%;
+  margin-left: 2.5%;
+  margin-top: 3%;
   z-index: 1;
   background-color: #f9edad;
 }
 
 .informationLi {
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
   padding: 2%;
   background-color: #9db05c;
   font-weight: bold;
@@ -88,9 +88,9 @@ nav a:hover {
   display: flex;
   justify-content: center;
   align-content: center;
-  width: 90%;
-  margin: 5%;
-  margin-top: 15%;
+  width: 95%;
+  margin: 2.5%;
+  margin-top: 3%;
 }
 
 .ReportBox {
@@ -100,15 +100,15 @@ nav a:hover {
   display: flex;
   justify-content: space-evenly;
   align-content: center;
-  width: 90%;
-  margin: 5%;
-  margin-top: 75%;
+  width: 95%;
+  margin: 2.5%;
+  margin-top: 3%;
 }
 
 .MainInfoLi {
   background-color: #9db05c;
   margin: 5%;
-  padding: 3%;
+  padding: 2%;
   display: flex;
   align-content: center;
 }
@@ -152,14 +152,10 @@ nav a:hover {
 }
 
 .TAKISTAN {
-  width: 100%;
+  width: 100vw;
 }
 
-.Soldiers {
-  width: 100%;
-}
-
-.Tactical-map {
+.Imgs1440 {
   width: 98%;
   margin-top: 10%;
   margin-left: 1%;
